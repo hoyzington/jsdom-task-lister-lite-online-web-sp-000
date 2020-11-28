@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById('create-task-form')
   form.addEventListener('submit', (e) => addTask(e))
+=======
+document.addEventListener('submit', (e) => {
+  e.preventDefault;
+  let task = document.getElementById('')
+>>>>>>> 06a9fb0fc133729fd7d5063e80400ef6445b7747
 });
 
 function addTask(e) {
